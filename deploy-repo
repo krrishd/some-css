@@ -1,0 +1,3 @@
+#/bin/bash
+
+git add .; git commit -m "Added/Modified"; git push origin master; echo "Deployed to main repo!"

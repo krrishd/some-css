@@ -1,0 +1,3 @@
+#!/bin/bash
+
+git checkout gh-pages; git add .; git push origin gh-pages; echo "Deployed to GitHub Pages!"
