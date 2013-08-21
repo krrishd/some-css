@@ -13,6 +13,7 @@
   border-radius: 5px;
   border-bottom: 2px solid #c0392b;
   cursor: pointer;
+  color: white;
 }
 .bn.blue {
   display: inline-block;
@@ -21,4 +22,59 @@
   border-radius: 5px;
   border-bottom: 2px solid #2980b9;
   cursor: pointer;
+  color: white;
+}
+.bn.green {
+  display: inline-block;
+  padding: 5px;
+  background: #2ecc71;
+  border-radius: 5px;
+  border-bottom: 2px solid #27ae60;
+  cursor: pointer;
+  color: white;
+}
+.bn.yellow {
+  display: inline-block;
+  padding: 5px;
+  background: #f1c40f;
+  border-radius: 5px;
+  border-bottom: 2px solid #f39c12;
+  cursor: pointer;
+  color: black;
+}
+.bn.aqua {
+  display: inline-block;
+  padding: 5px;
+  background: #1abc9c;
+  border-radius: 5px;
+  border-bottom: 2px solid #16a085;
+  cursor: pointer;
+  color: white;
+}
+.bn.orange {
+  display: inline-block;
+  padding: 5px;
+  background: #e67e22;
+  border-radius: 5px;
+  border-bottom: 2px solid #d35400;
+  cursor: pointer;
+  color: white;
+}
+.bn.purple {
+  display: inline-block;
+  padding: 5px;
+  background: #9b59b6;
+  border-radius: 5px;
+  border-bottom: 2px solid #8e44ad;
+  cursor: pointer;
+  color: white;
+}
+.bn.dark {
+  display: inline-block;
+  padding: 5px;
+  background: #34495e;
+  border-radius: 5px;
+  border-bottom: 2px solid #2c3e50;
+  cursor: pointer;
+  color: white;
 }
