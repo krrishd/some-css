@@ -6,6 +6,9 @@
   border-bottom: 2px solid #95a5a6;
   cursor: pointer;
 }
+.bn.big {
+  padding: 10px !important;
+}
 .bn.red {
   display: inline-block;
   padding: 5px;
