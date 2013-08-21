@@ -6,3 +6,19 @@
   border-bottom: 2px solid #95a5a6;
   cursor: pointer;
 }
+.bn.red {
+  display: inline-block;
+  padding: 5px;
+  background: #e74c3c;
+  border-radius: 5px;
+  border-bottom: 2px solid #c0392b;
+  cursor: pointer;
+}
+.bn.blue {
+  display: inline-block;
+  padding: 5px;
+  background: #3498db;
+  border-radius: 5px;
+  border-bottom: 2px solid #2980b9;
+  cursor: pointer;
+}
