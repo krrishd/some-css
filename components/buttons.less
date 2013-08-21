@@ -2,6 +2,16 @@
 
 @import "variables.less";
 
+.button (@bg, @bottom, @text) {
+	display: inline-block;
+	padding: 5px;
+	background: @bg;
+	border-radius: 5px;
+	border-bottom: 2px solid @bottom;
+	cursor: pointer;
+	color:@text;
+}
+
 .bn {
 	display: inline-block;
 	padding: 5px;
@@ -13,75 +23,27 @@
 		padding: 5px 10px !important;
 	}
 	&.red {
-		display: inline-block;
-		padding: 5px;
-		background: @red;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-red;
-		cursor: pointer;
-		color:white;
+		.button(@red, @dark-red, white);
 	}
 	&.blue {
-		display: inline-block;
-		padding: 5px;
-		background: @blue;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-blue;
-		cursor: pointer;
-		color:white;
+		.button(@blue, @dark-blue, white);
 	}
 	&.green {
-		display: inline-block;
-		padding: 5px;
-		background: @green;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-green;
-		cursor: pointer;
-		color:white;
+		.button(@green, @dark-green, white);
 	}
 	&.yellow {
-		display: inline-block;
-		padding: 5px;
-		background: @yellow;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-yellow;
-		cursor: pointer;
-		color:black;
+		.button(@yellow, @dark-yellow, black);
 	}
 	&.aqua {
-		display: inline-block;
-		padding: 5px;
-		background: @aqua;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-aqua;
-		cursor: pointer;
-		color:white;
+		.button(@aqua, @dark-aqua, white);
 	}
 	&.orange {
-		display: inline-block;
-		padding: 5px;
-		background: @orange;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-orange;
-		cursor: pointer;
-		color:white;
+		.button(@orange, @dark-orange, white);
 	}
 	&.purple {
-		display: inline-block;
-		padding: 5px;
-		background: @purple;
-		border-radius: 5px;
-		border-bottom: 2px solid @dark-purple;
-		cursor: pointer;
-		color:white;
+		.button(@purple, @dark-purple, white);
 	}
 	&.dark {
-		display: inline-block;
-		padding: 5px;
-		background: @really-dark-blue;
-		border-radius: 5px;
-		border-bottom: 2px solid @very-dark-blue;
-		cursor: pointer;
-		color:white;
+		.button(@really-dark-blue, @very-dark-blue, white);
 	}
 }
