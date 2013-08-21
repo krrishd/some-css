@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testing Elements</title>
+		<link href='main.css' type='text/css' rel='stylesheet'>
+		<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js'></script>
+		<script type='text/javascript' src='ctrl.js'></script>
+	</head>
+	<body ng-app="" ng-controller='mainCtrl'>
+		<header>
+			<h1>some.css - examples</h1>
+		</header>
+		<div id='main'>
+			<input type='text' ng-model='btnClass' value='Test Out Button Classes'>
+			<a class='{{ btnClass }}'>
+			Button</a>
+		</div>
+		<footer>
+			<p>&copy; 2013 Classify Studios. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
+
+
