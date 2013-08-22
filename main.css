@@ -228,7 +228,11 @@ body a {
   text-decoration: none;
   color: #000096;
 }
-code {
+body hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+}
+body code {
   display: block;
   padding: 10px;
   background: #000000;
