@@ -1,8 +1,8 @@
 .transition {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
 }
 .bn {
   display: inline-block;
@@ -20,10 +20,10 @@
   font-size: 10px;
 }
 .bn.red {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #e74c3c;
@@ -33,28 +33,28 @@
   color: #ffffff;
 }
 .bn.red:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #e43725;
   border-bottom: 2px solid #ab3326;
 }
 .bn.red:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #e43725;
   border-bottom: 1px solid #ab3326;
   position: relative;
   top: 0.5px;
 }
 .bn.blue {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #3498db;
@@ -64,28 +64,28 @@
   color: #ffffff;
 }
 .bn.blue:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #258cd1;
   border-bottom: 2px solid #2472a4;
 }
 .bn.blue:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #258cd1;
   border-bottom: 1px solid #2472a4;
   position: relative;
   top: 0.5px;
 }
 .bn.green {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #2ecc71;
@@ -95,28 +95,28 @@
   color: #ffffff;
 }
 .bn.green:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #29b765;
   border-bottom: 2px solid #229955;
 }
 .bn.green:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #29b765;
   border-bottom: 1px solid #229955;
   position: relative;
   top: 0.5px;
 }
 .bn.yellow {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #f1c40f;
@@ -126,28 +126,28 @@
   color: #000000;
 }
 .bn.yellow:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #dab10d;
   border-bottom: 2px solid #e08e0b;
 }
 .bn.yellow:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #dab10d;
   border-bottom: 1px solid #e08e0b;
   position: relative;
   top: 0.5px;
 }
 .bn.aqua {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #1abc9c;
@@ -157,28 +157,28 @@
   color: #ffffff;
 }
 .bn.aqua:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #17a689;
   border-bottom: 2px solid #138a72;
 }
 .bn.aqua:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #17a689;
   border-bottom: 1px solid #138a72;
   position: relative;
   top: 0.5px;
 }
 .bn.orange {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #e67e22;
@@ -188,28 +188,28 @@
   color: #ffffff;
 }
 .bn.orange:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #d67118;
   border-bottom: 2px solid #ba4a00;
 }
 .bn.orange:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #d67118;
   border-bottom: 1px solid #ba4a00;
   position: relative;
   top: 0.5px;
 }
 .bn.purple {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #9b59b6;
@@ -219,28 +219,28 @@
   color: #ffffff;
 }
 .bn.purple:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #8f4bab;
   border-bottom: 2px solid #7f3d9b;
 }
 .bn.purple:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #8f4bab;
   border-bottom: 1px solid #7f3d9b;
   position: relative;
   top: 0.5px;
 }
 .bn.dark {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   display: inline-block;
   padding: 5px;
   background: #34495e;
@@ -250,18 +250,18 @@
   color: #ffffff;
 }
 .bn.dark:hover {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #2b3c4e;
   border-bottom: 2px solid #233140;
 }
 .bn.dark:active {
-  -webkit-transition: height 0.5s 0.5s ease-in-out;
-  -moz-transition: height 0.5s 0.5s ease-in-out;
-  -o-transition: height 0.5s 0.5s ease-in-out;
-  -ms-transition: height 0.5s 0.5s ease-in-out;
+  -webkit-transition: height 1.5s 1.5s ease-in-out;
+  -moz-transition: height 1.5s 1.5s ease-in-out;
+  -o-transition: height 1.5s 1.5s ease-in-out;
+  -ms-transition: height 1.5s 1.5s ease-in-out;
   background: #2b3c4e;
   border-bottom: 1px solid #233140;
   position: relative;
