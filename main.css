@@ -1,18 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 .transition {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 .transition {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 body {
   font-family: Droid Sans, Helvetica, Arial, sans-serif;
 }
 .transition {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 .transition {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 .bn {
   display: inline-block;
@@ -30,7 +30,7 @@ body {
   font-size: 10px;
 }
 .bn.red {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #e74c3c;
@@ -40,19 +40,19 @@ body {
   color: #ffffff;
 }
 .bn.red:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #e43725;
   border-bottom: 2px solid #ab3326;
 }
 .bn.red:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #e43725;
   border-bottom: 1px solid #ab3326;
   position: relative;
   top: 0.5px;
 }
 .bn.blue {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #3498db;
@@ -62,19 +62,19 @@ body {
   color: #ffffff;
 }
 .bn.blue:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #258cd1;
   border-bottom: 2px solid #2472a4;
 }
 .bn.blue:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #258cd1;
   border-bottom: 1px solid #2472a4;
   position: relative;
   top: 0.5px;
 }
 .bn.green {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #2ecc71;
@@ -84,19 +84,19 @@ body {
   color: #ffffff;
 }
 .bn.green:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #29b765;
   border-bottom: 2px solid #229955;
 }
 .bn.green:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #29b765;
   border-bottom: 1px solid #229955;
   position: relative;
   top: 0.5px;
 }
 .bn.yellow {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #f1c40f;
@@ -106,19 +106,19 @@ body {
   color: #000000;
 }
 .bn.yellow:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #dab10d;
   border-bottom: 2px solid #e08e0b;
 }
 .bn.yellow:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #dab10d;
   border-bottom: 1px solid #e08e0b;
   position: relative;
   top: 0.5px;
 }
 .bn.aqua {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #1abc9c;
@@ -128,19 +128,19 @@ body {
   color: #ffffff;
 }
 .bn.aqua:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #17a689;
   border-bottom: 2px solid #138a72;
 }
 .bn.aqua:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #17a689;
   border-bottom: 1px solid #138a72;
   position: relative;
   top: 0.5px;
 }
 .bn.orange {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #e67e22;
@@ -150,19 +150,19 @@ body {
   color: #ffffff;
 }
 .bn.orange:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #d67118;
   border-bottom: 2px solid #ba4a00;
 }
 .bn.orange:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #d67118;
   border-bottom: 1px solid #ba4a00;
   position: relative;
   top: 0.5px;
 }
 .bn.purple {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #9b59b6;
@@ -172,19 +172,19 @@ body {
   color: #ffffff;
 }
 .bn.purple:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #8f4bab;
   border-bottom: 2px solid #7f3d9b;
 }
 .bn.purple:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #8f4bab;
   border-bottom: 1px solid #7f3d9b;
   position: relative;
   top: 0.5px;
 }
 .bn.dark {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #34495e;
@@ -194,28 +194,28 @@ body {
   color: #ffffff;
 }
 .bn.dark:hover {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #2b3c4e;
   border-bottom: 2px solid #233140;
 }
 .bn.dark:active {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   background: #2b3c4e;
   border-bottom: 1px solid #233140;
   position: relative;
   top: 0.5px;
 }
 .transition {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 input[type='text'] {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #bdc3c7;
 }
 input[type='text']:focus {
-  transition: background 0.25s,color 0.25s,border 0.25s;
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   box-shadow: 1px 0 7px 1px #aaa;
   background: #ecf0f1;
 }
