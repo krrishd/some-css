@@ -12,12 +12,12 @@
 	color:@text;
 }
 
-.button:hover (@bg, @bottom, @text) {
+.buttonhvr (@bg, @bottom, @text) {
 	background: darken(@bg, 5%);
 	border-bottom: 2px solid darken(@bottom, 5%);
 }
 
-.button:active (@bg, @bottom, @text) {
+.buttonatv (@bg, @bottom, @text) {
 	background:darken(@bg, 5%);
 	border-bottom:1px solid darken(@bottom, 5%);
 	position:relative;
@@ -40,7 +40,7 @@
 	}
 	&.red {
 		.button(@red, @dark-red, white);
-		&.button:hover (@red, @dark-red, white)
+		&.buttonvr (@red, @dark-red, white);
 	}
 	&.blue {
 		.button(@blue, @dark-blue, white);
