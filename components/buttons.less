@@ -10,11 +10,11 @@
 	border-bottom: 2px solid @bottom;
 	cursor: pointer;
 	color:@text;
-	&.:hover {
+	&.:hover (@bg, @bottom, @text) {
 		background: darken(@bg, 5%);
 		border-bottom: 2px solid darken(@bottom, 5%);
 	}
-	&.:active {
+	&.:active (@bg, @bottom, @text) {
 		background:darken(@bg, 5%);
 		border-bottom:1px solid darken(@bottom, 5%);
 		position:relative;
