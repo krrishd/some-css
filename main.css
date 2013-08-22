@@ -235,4 +235,5 @@ code {
   margin: 5px;
   border-radius: 5px;
   color: #00fc14;
+  max-width: 600px;
 }
