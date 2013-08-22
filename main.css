@@ -7,7 +7,11 @@
   cursor: pointer;
 }
 .bn.big {
-  padding: 5px 10px !important;
+  padding: 10px 10px !important;
+}
+.bn.small {
+  padding: 3px;
+  font-size: 10px;
 }
 .bn.red {
   display: inline-block;
