@@ -34,7 +34,7 @@ body {
   background: #e43725;
   border-bottom: 1px solid #ab3326;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.blue {
   display: inline-block;
@@ -53,7 +53,7 @@ body {
   background: #258cd1;
   border-bottom: 1px solid #2472a4;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.green {
   display: inline-block;
@@ -72,7 +72,7 @@ body {
   background: #29b765;
   border-bottom: 1px solid #229955;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.yellow {
   display: inline-block;
@@ -91,7 +91,7 @@ body {
   background: #dab10d;
   border-bottom: 1px solid #e08e0b;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.aqua {
   display: inline-block;
@@ -110,7 +110,7 @@ body {
   background: #17a689;
   border-bottom: 1px solid #138a72;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.orange {
   display: inline-block;
@@ -129,7 +129,7 @@ body {
   background: #d67118;
   border-bottom: 1px solid #ba4a00;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.purple {
   display: inline-block;
@@ -148,7 +148,7 @@ body {
   background: #8f4bab;
   border-bottom: 1px solid #7f3d9b;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 .bn.dark {
   display: inline-block;
@@ -167,7 +167,7 @@ body {
   background: #2b3c4e;
   border-bottom: 1px solid #233140;
   position: relative;
-  top: 0.35px;
+  top: 0.4px;
 }
 input[type='text'] {
   padding: 5px;
