@@ -4,5 +4,5 @@ input[type='text'] {
   border: 1px solid #bdc3c7;
 }
 input[type='text']:focus {
-  box-shadow: 1px 0px 7px 1px #01455a;
+  box-shadow: 1px 0px 7px 1px #568796;
 }
