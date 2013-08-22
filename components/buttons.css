@@ -30,7 +30,7 @@
   background: #e43725;
   border-bottom: 1px solid #ab3326;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.blue {
   display: inline-block;
@@ -49,7 +49,7 @@
   background: #258cd1;
   border-bottom: 1px solid #2472a4;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.green {
   display: inline-block;
@@ -68,7 +68,7 @@
   background: #29b765;
   border-bottom: 1px solid #229955;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.yellow {
   display: inline-block;
@@ -87,7 +87,7 @@
   background: #dab10d;
   border-bottom: 1px solid #e08e0b;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.aqua {
   display: inline-block;
@@ -106,7 +106,7 @@
   background: #17a689;
   border-bottom: 1px solid #138a72;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.orange {
   display: inline-block;
@@ -125,7 +125,7 @@
   background: #d67118;
   border-bottom: 1px solid #ba4a00;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.purple {
   display: inline-block;
@@ -144,7 +144,7 @@
   background: #8f4bab;
   border-bottom: 1px solid #7f3d9b;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
 .bn.dark {
   display: inline-block;
@@ -163,5 +163,5 @@
   background: #2b3c4e;
   border-bottom: 1px solid #233140;
   position: relative;
-  top: 0.4px;
+  top: 0.5px;
 }
