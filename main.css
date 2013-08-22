@@ -169,6 +169,14 @@ body {
   position: relative;
   bottom: 1px;
 }
+input[type='text'] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7;
+}
+input[type='text']:focus {
+  box-shadow: 1px 0px 7px 1px #01455a;
+}
 body {
   background: #ecf0f1;
   padding: 0 10px;
