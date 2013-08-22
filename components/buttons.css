@@ -8,6 +8,7 @@
   border-radius: 5px;
   border-bottom: 2px solid #95a5a6;
   cursor: pointer;
+  color: black;
 }
 .bn.big {
   padding: 10px 10px !important;

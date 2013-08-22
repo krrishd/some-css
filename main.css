@@ -21,6 +21,7 @@ body {
   border-radius: 5px;
   border-bottom: 2px solid #95a5a6;
   cursor: pointer;
+  color: black;
 }
 .bn.big {
   padding: 10px 10px !important;
@@ -222,4 +223,16 @@ input[type='text']:focus {
 body {
   background: #ecf0f1;
   padding: 0 10px;
+}
+body a {
+  text-decoration: none;
+  color: #000096;
+}
+code {
+  display: block;
+  padding: 10px;
+  background: #000000;
+  margin: 5px;
+  border-radius: 5px;
+  color: #00fc14;
 }
