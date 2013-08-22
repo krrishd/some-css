@@ -10,16 +10,18 @@
 	border-bottom: 2px solid @bottom;
 	cursor: pointer;
 	color:@text;
-	&.:hover (@bg, @bottom, @text) {
-		background: darken(@bg, 5%);
-		border-bottom: 2px solid darken(@bottom, 5%);
-	}
-	&.:active (@bg, @bottom, @text) {
-		background:darken(@bg, 5%);
-		border-bottom:1px solid darken(@bottom, 5%);
-		position:relative;
-		bottom:1px;
-	}
+}
+
+.button:hover (@bg, @bottom, @text) {
+	background: darken(@bg, 5%);
+	border-bottom: 2px solid darken(@bottom, 5%);
+}
+
+.button:active (@bg, @bottom, @text) {
+	background:darken(@bg, 5%);
+	border-bottom:1px solid darken(@bottom, 5%);
+	position:relative;
+	bottom:1px;
 }
 
 .bn {
@@ -38,6 +40,7 @@
 	}
 	&.red {
 		.button(@red, @dark-red, white);
+		&.button:hover (@red, @dark-red, white)
 	}
 	&.blue {
 		.button(@blue, @dark-blue, white);
