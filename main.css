@@ -169,11 +169,6 @@ body {
   position: relative;
   bottom: 1px;
 }
-input[type='text'] {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #bdc3c7;
-}
 body {
   background: #ecf0f1;
   padding: 0 10px;
