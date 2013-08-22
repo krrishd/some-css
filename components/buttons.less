@@ -3,6 +3,7 @@
 @import "variables.less";
 
 .button (@bg, @bottom, @text) {
+	.transition;
 	display: inline-block;
 	padding: 5px;
 	background: @bg;
@@ -13,11 +14,13 @@
 }
 
 .buttonhvr (@bg, @bottom, @text) {
+	.transition;
 	background: darken(@bg, 5%);
 	border-bottom: 2px solid darken(@bottom, 5%);
 }
 
 .buttonatv (@bg, @bottom, @text) {
+	.transition;
 	background:darken(@bg, 5%);
 	border-bottom:1px solid darken(@bottom, 5%);
 	position:relative;
