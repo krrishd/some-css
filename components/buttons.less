@@ -2,41 +2,12 @@
 
 @import "variables.less";
 
-.button (@bg, @bottom, @text) {
-	.transition;
-	display: inline-block;
-	padding: 5px;
-	background: @bg;
-	border-radius: 5px;
-	border-bottom: 2px solid @bottom;
-	cursor: pointer;
-	color:@text;
-}
-
-.buttonhvr (@bg, @bottom, @text) {
-	.transition;
-	background: darken(@bg, 5%);
-	border-bottom: 2px solid darken(@bottom, 5%);
-}
-
-.buttonatv (@bg, @bottom, @text) {
-	.transition;
-	background:darken(@bg, 5%);
-	border-bottom:1px solid darken(@bottom, 5%);
-	position:relative;
-	top:0.5px;
-}
 
 .bn {
-	display: inline-block;
-	padding: 5px;
-	background: @grey;
-	border-radius: 5px;
-	border-bottom: 2px solid @dark-grey;
-	cursor: pointer;
-	color:black;
+	.button(@grey, @dark-grey, black);
 	&.big {
 		padding: 20px 60px !important;
+		font-size: 1.5em;
 	}
 	&.small {
 		padding:4px;

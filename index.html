@@ -7,25 +7,53 @@
 		<script type='text/javascript' src='ctrl.js'></script>
 	</head>
 	<body ng-app="" ng-controller='mainCtrl'>
-		<header>
+		<header class='h'>
 			<h1>some.css - examples</h1>
 		</header>
+		<nav class='nav'>
+			<a href='/'>Home</a>
+			<a href='/about'>About</a>
+			<a href='http://github.com/krrishd/some-css'>Contribute</a>
+		</nav>
 		<div id='main'>
 		<div id='btnDemo'>
 			<h2>Buttons</h2>
 			<hr>
-			<input type='text' ng-model='btnClass' placeholder='Type classes here'>
-			<a class='{{btnClass}}'>Button</a>
 			<p>To activate: 
 				<code class='html'>
 					{{ btnHTML }}
 				</code>
 			</p>
-			<p>Colors: <code>grey(default) red, blue, green, yellow, orange, aqua, purple, dark</code></p>
+			<p>Color Classes: <code>grey(default) red, blue, green, yellow, orange, aqua, purple, dark</code></p>
 			<p>Sizes: <code>big, small</code></p>
+			<input type='text' ng-model='btnClass' placeholder='Type classes here'>
+			<a class='{{btnClass}}'>Button</a>
+		</div>
+		<div id='formDemo'>
+		<h2>Forms/Labels</h2>
+		<hr>
+		<p>To activate: 
+			<code class='html'>
+					{{ formHTML }}
+			</code>
+		</p>
+		<p>Color Classes: <code>grey(default) red, blue, green, yellow, orange, aqua, purple, dark</code></p>
+		<input type='text' ng-model='lblClass' placeholder='Type Label Classes Here'> 
+			<div class='field'>
+				<label for ='formText' class='{{lblClass}}'>Text</label> <input id='formText' type='text'>
+			</div>
+			<div class='field'>
+				<label class='{{lblClass}}' for='formPwd'>Password</label> <input type='password' id='formPwd'>
+			</div>
+			<div class='field'>
+				<label class='{{lblClass}}' for='formCheck'>Checkbox </label><input type='checkbox' id='formCheck'>
+			</div>
+			<div class='field'>
+				<label class='{{lblClass}}' for='formRadio'>Radio Button</label> <input id='formRadio' type='radio'>
+			</div>
 		</div>
 		</div>
-		<footer>
+		<footer class='f'>
 			<p>&copy; 2013 Classify Studios. All Rights Reserved.</p>
 		</footer>
 	</body>

@@ -2,16 +2,18 @@
   transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
 }
 .bn {
+  transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   display: inline-block;
   padding: 5px;
   background: #bdc3c7;
   border-radius: 5px;
   border-bottom: 2px solid #95a5a6;
   cursor: pointer;
-  color: black;
+  color: #000000;
 }
 .bn.big {
   padding: 20px 60px !important;
+  font-size: 1.5em;
 }
 .bn.small {
   padding: 4px;

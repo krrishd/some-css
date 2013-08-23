@@ -2,15 +2,46 @@
 
 @import "variables.less";
 
-input[type='text'] {
-	.transition;
-	padding: 5px;
-	border-radius: 5px;
-	border: 1px solid @grey;
-	
-	&:focus {
-		.transition;
-		box-shadow: 1px 0 7px 1px #aaa;
-		background: @light-grey;
-	}
+
+.field {
+	padding: 10px;
 }
+	input[type='text'], input[type='email'], input[type='password'] {
+		.transition;
+		padding: 5px;
+		border-radius: 5px;
+		border: 1px solid @grey;
+	
+		&:focus {
+			.transition;
+			box-shadow: 1px 0 7px 1px #aaa;
+			background: @light-grey;
+		}
+	}
+	.lbl {
+		.label(@grey, @dark-grey, black);
+		&.red {
+			.label(@red, @dark-red, white);
+		}
+		&.blue {
+			.label(@blue, @dark-blue, white);
+		}
+		&.green {
+			.label(@green, @dark-green, white);
+		}
+		&.yellow {
+			.label(@yellow, @dark-yellow, black);
+		}
+		&.aqua {
+			.label(@aqua, @dark-aqua, white);
+		}
+		&.orange {
+			.label(@orange, @dark-orange, white);
+		}
+		&.purple {
+			.label(@purple, @dark-purple, white);
+		}
+		&.dark {
+			.label(@really-dark-blue, @very-dark-blue, white);
+		}
+	}
