@@ -91,3 +91,6 @@ input[type='password']:focus {
   border-bottom: 2px solid #2c3e50;
   color: #ffffff;
 }
+.lbl input {
+  margin-left: 15px;
+}
