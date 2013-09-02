@@ -445,3 +445,8 @@ body code {
   color: #00fc14;
   max-width: 600px;
 }
+body .prof {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border: 2px solid #bdc3c7;
+}
