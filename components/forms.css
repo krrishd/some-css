@@ -20,7 +20,7 @@ input[type='email']:focus,
 input[type='password']:focus {
   transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
   border: 1px solid rgba(0, 0, 0, 0);
-  background: #ecf0f1;
+  background: rgba(0, 0, 0, 0);
 }
 .lbl {
   transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
