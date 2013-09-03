@@ -337,6 +337,9 @@ body {
 .field {
   padding: 10px;
 }
+:focus {
+  outline: rgba(0, 0, 0, 0) auto 5px !important;
+}
 input[type='text'],
 input[type='email'],
 input[type='password'] {
@@ -349,7 +352,7 @@ input[type='text']:focus,
 input[type='email']:focus,
 input[type='password']:focus {
   transition: background 0.25s,color 0.25s,border 0.25s, position 0.25s;
-  box-shadow: 1px 0 7px 1px #aaa;
+  border: 1px solid rgba(0, 0, 0, 0);
   background: #ecf0f1;
 }
 .lbl {
