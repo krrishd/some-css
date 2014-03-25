@@ -1,0 +1,62 @@
+@import "colors.less";
+
+.color(@color, @bottom) {
+	background: @color;
+	border-bottom: 3px solid @bottom;
+}
+
+.whiteText {
+	color: white;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+.btn {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: none;
+	padding: 10px;
+	background: @white;
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-bottom: 3px solid rgba(0,0,0,.1);
+	&.big {
+		padding: 15px;
+		font-size: 1.3em;
+	}
+	&:active {
+		border-bottom-width: 2px !important;
+		position:relative;
+		top: 1px;
+	}
+	&.dark {
+		.color(@dark, @darker);	
+		.whiteText;
+	}
+	&.purple {
+		.color(@purple, @darkPurple);
+		.whiteText;
+	}
+	&.blue {
+		.color(@blue, @darkBlue);
+		.whiteText;
+	}
+	&.green {
+		.color(@green, @darkGreen);
+		.whiteText;
+	}
+	&.turquoise {
+		.color(@turquoise, @darkTurquoise);
+		.whiteText;
+	}
+	&.yellow {
+		.color(@yellow, @orange);
+	}
+	&.orange {
+		.color(@darkOrange, @darkerOrange);
+		.whiteText;
+	}
+	&.red {
+		.color(@red, @darkRed);
+		.whiteText;
+	}
+}
